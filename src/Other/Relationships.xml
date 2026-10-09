@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_za_complaint" />
+  <EntityRelationship Name="business_unit_za_customer" />
+  <EntityRelationship Name="business_unit_za_product" />
+  <EntityRelationship Name="lk_za_complaint_createdby" />
+  <EntityRelationship Name="lk_za_complaint_modifiedby" />
+  <EntityRelationship Name="lk_za_customer_createdby" />
+  <EntityRelationship Name="lk_za_customer_modifiedby" />
+  <EntityRelationship Name="lk_za_product_createdby" />
+  <EntityRelationship Name="lk_za_product_modifiedby" />
+  <EntityRelationship Name="owner_za_complaint" />
+  <EntityRelationship Name="owner_za_customer" />
+  <EntityRelationship Name="owner_za_product" />
+  <EntityRelationship Name="team_za_complaint" />
+  <EntityRelationship Name="team_za_customer" />
+  <EntityRelationship Name="team_za_product" />
+  <EntityRelationship Name="TransactionCurrency_za_Product" />
+  <EntityRelationship Name="user_za_complaint" />
+  <EntityRelationship Name="user_za_customer" />
+  <EntityRelationship Name="user_za_product" />
+  <EntityRelationship Name="za_Complaint_za_Customer_za_Customer" />
+  <EntityRelationship Name="za_Complaint_za_Product_za_Product" />
+</EntityRelationships>

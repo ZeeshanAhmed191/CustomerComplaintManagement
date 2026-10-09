@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b785346a-0f44-4538-a4a2-c1c5fa920806}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="za_productname" select="1" icon="1" preview="1">
+        <row name="result" id="za_productid">
+          <cell name="za_productname" width="300" />
+          <cell name="za_productcode" width="150" />
+          <cell name="za_category" width="150" />
+          <cell name="za_price" width="150" />
+          <cell name="za_description" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="za_product">
+          <attribute name="za_productid" />
+          <attribute name="za_productname" />
+          <attribute name="createdon" />
+          <order attribute="za_productname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="za_productcode" />
+          <attribute name="za_category" />
+          <attribute name="za_price" />
+          <attribute name="za_description" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Products" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

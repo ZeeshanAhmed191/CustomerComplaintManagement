@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{f40462ef-0fa2-4f36-80b7-aa3fc4999e36}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="za_productname" select="1" icon="1" preview="1">
+        <row name="result" id="za_productid">
+          <cell name="za_productname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="za_product">
+          <attribute name="za_productid" />
+          <attribute name="za_productname" />
+          <attribute name="createdon" />
+          <order attribute="za_productname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Products" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

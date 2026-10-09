@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{db756ba4-ce9c-4398-8c0e-167ac4061d78}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="za_casetitle" select="1" icon="1" preview="1">
+        <row name="result" id="za_complaintid">
+          <cell name="za_casetitle" width="300" />
+          <cell name="za_description" width="150" />
+          <cell name="za_product" width="100" />
+          <cell name="za_complaintdate" width="150" />
+          <cell name="za_customer" width="100" />
+          <cell name="za_priority" width="150" />
+          <cell name="za_status" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="za_complaint">
+          <attribute name="za_complaintid" />
+          <attribute name="za_casetitle" />
+          <attribute name="createdon" />
+          <order attribute="za_casetitle" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="za_description" />
+          <attribute name="za_complaintdate" />
+          <attribute name="za_priority" />
+          <attribute name="za_status" />
+          <attribute name="za_customer" />
+          <attribute name="za_product" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Complaints" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

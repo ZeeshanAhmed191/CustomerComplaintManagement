@@ -1,0 +1,11 @@
+<dvtablesearch dvtablesearchid="61fca70d-e6b5-f111-aaac-70a8a52d692d">
+  <appmoduleuniquename>za_CustomerComplaintCRM</appmoduleuniquename>
+  <iscustomizable>1</iscustomizable>
+  <m365appmoduleid>
+    <uniquename>za_CustomerComplaintCRM</uniquename>
+  </m365appmoduleid>
+  <name>M365_Primary_model_za_CustomerComplaintCRM</name>
+  <searchtype>0</searchtype>
+  <statecode>1</statecode>
+  <statuscode>2</statuscode>
+</dvtablesearch>

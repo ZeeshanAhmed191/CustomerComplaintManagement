@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{89faf66f-e9f2-49c6-bbd3-a588f1032c13}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="za_customername" select="1" icon="1" preview="1">
+        <row name="result" id="za_customerid">
+          <cell name="za_customername" width="300" />
+          <cell name="za_email" width="150" />
+          <cell name="za_phonenumber" width="150" />
+          <cell name="za_customertype" width="150" />
+          <cell name="za_city" width="150" />
+          <cell name="za_address" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="za_customer">
+          <attribute name="za_customerid" />
+          <attribute name="za_customername" />
+          <attribute name="createdon" />
+          <order attribute="za_customername" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="za_email" />
+          <attribute name="za_phonenumber" />
+          <attribute name="za_customertype" />
+          <attribute name="za_city" />
+          <attribute name="za_address" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Customers" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

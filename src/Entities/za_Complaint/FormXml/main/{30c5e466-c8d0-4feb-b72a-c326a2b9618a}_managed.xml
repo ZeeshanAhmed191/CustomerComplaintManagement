@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{30c5e466-c8d0-4feb-b72a-c326a2b9618a}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{bfaca1bf-81db-4d0e-bf34-3028979d677d}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f8ce0712-56ef-46bd-a0d6-41304bc4aef7}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c7998a1d-8f8b-4057-9c48-7b4f4365564a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_casetitle" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="za_casetitle" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cd08890d-a58b-4276-83cc-5abf5403a84a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c9ce93de-23fc-4e30-b226-9f71868b5abd}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_complaintdate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="za_complaintdate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c96a92cf-cd17-405b-9b3f-5eb99d50e6fa}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_priority" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="za_priority" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a8f639a-97a6-4acd-bc38-48d38768b624}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="za_status" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e0a2a5c6-e8a8-4d08-88af-c78df85b180a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_product" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="za_product" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ff86f616-71d1-4d01-bdb9-4e4dd384c02c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_customer" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="za_customer" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{37b604dd-aad0-47fb-ab4a-4d1320fb4b97}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_description" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="za_description" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eecc8788-4549-4c56-867e-904d2494c78d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_resolution" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="za_resolution" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{86079bdf-6fe7-4686-9035-c2d7eac989d0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7b644cc0-008d-4d8d-9f16-734ced1428de}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e8c4c965-584f-4f42-a410-a7e0ed9b7cff}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7bbc199e-d02f-4fad-9ff6-8630f3fb3593}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{37da6a9c-8775-4832-bb4e-59e85bd0fcd5}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9c4dde8d-0c4c-4ef4-9124-b45265bb233a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ce2aed86-aa68-4499-9b4c-78b3ac0c69b5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{44a83191-c441-42a8-93d5-b99f0a3b6732}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="za_complaint.js" libraryUniqueId="{013bcd86-75d2-4ee0-b77a-ad13efcdaaf3}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="za_status">
+          <Handlers>
+            <Handler functionName="checkResolution" libraryName="za_complaint.js" handlerUniqueId="{093213cd-09f7-4492-8d86-60ce15b9fdd9}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

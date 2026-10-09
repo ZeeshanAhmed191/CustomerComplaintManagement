@@ -1,0 +1,122 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_sendmail": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "za_sharedsendmail_6152c"
+        },
+        "api": {
+          "name": "shared_sendmail"
+        }
+      },
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "za_sharedcommondataserviceforapps_391fa"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "When_a_row_is_added,_modified_or_deleted": {
+          "metadata": {
+            "operationMetadataId": "9f6f7227-6def-494c-aeb5-38b678a3f23f"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "subscriptionRequest/message": 4,
+              "subscriptionRequest/entityname": "za_complaint",
+              "subscriptionRequest/scope": 4
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "Condition": {
+          "actions": {
+            "Send_an_email_notification_(V3)": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "36eb57eb-2bac-49b4-893d-7a22de010f9c"
+              },
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_sendmail",
+                  "operationId": "SendEmailV3",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_sendmail"
+                },
+                "parameters": {
+                  "request/to": "shanu101202@gmail.com",
+                  "request/subject": "critical Complaint",
+                  "request/text": "<p>This is about critical complaint.</p>"
+                },
+                "authentication": "@parameters('$authentication')"
+              }
+            }
+          },
+          "runAfter": {},
+          "expression": {
+            "equals": [
+              "@triggerOutputs()?['body/za_priority']",
+              4
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "2b46cf6f-68d6-487f-ad90-c6b8a6770224"
+          },
+          "type": "If"
+        },
+        "Send_an_email_notification_(V3)_2": {
+          "runAfter": {
+            "Condition": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "2523bfa8-64fc-44e3-abec-400694ae15b0"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_sendmail",
+              "operationId": "SendEmailV3",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sendmail"
+            },
+            "parameters": {
+              "request/to": "shanu101202@gmail.com",
+              "request/subject": "Critical Complaint",
+              "request/text": "<p>This is critical COmplaint.</p>"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

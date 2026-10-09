@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f2583fce-c02c-4038-83f4-bdf6f6f833e8}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{49dcdb4e-7c05-4fcb-a3d9-a6e0023d34ef}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3fd8c419-fd52-48cd-8075-1a9c73a0d9be}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7739f30f-3319-4ddb-b972-3cbc9cf7965d}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_customername" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="za_customername" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{064dd8d0-8663-44e3-ae63-fee5928026a6}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b05acf66-18ff-450c-bd59-5388cf3b2a13}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_email" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="za_email" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6b94edd8-6c44-44e6-bf99-eef5af5a048b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_phonenumber" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="za_phonenumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4b3196f5-81ea-416e-bad0-ab0a674b4e2e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_customertype" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="za_customertype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1a87f58-8f89-4cbf-ae1f-70728f1675d1}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_city" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="za_city" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32e3ff68-d98e-4057-ba68-516e2e31e1de}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_address" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="za_address" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>za_CustomerComplaintCRM</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="cr624_complaintresolutionprocess" />
+    <AppModuleComponent type="1" schemaName="za_complaint" />
+    <AppModuleComponent type="1" schemaName="za_customer" />
+    <AppModuleComponent type="1" schemaName="za_product" />
+    <AppModuleComponent type="29" id="{acae8359-47c2-f111-aaaf-7c1e52201ab1}" />
+    <AppModuleComponent type="60" id="{0e4ed16c-abc3-f111-a05c-7c1e52201ab1}" />
+    <AppModuleComponent type="62" schemaName="za_CustomerComplaintCRM" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Customer Complaint CRM" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A CRM application for managing customers, products, and customer complaints. It enables support employees to record complaints, track their status and priority, and manage complaint-related information efficiently." languagecode="1033" />
+  </Descriptions>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

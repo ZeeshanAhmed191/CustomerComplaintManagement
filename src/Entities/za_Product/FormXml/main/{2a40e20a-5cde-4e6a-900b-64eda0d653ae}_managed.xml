@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2a40e20a-5cde-4e6a-900b-64eda0d653ae}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{d39f7d76-1437-4e5e-9267-49c5b527a647}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0c1b250e-cefb-4239-8dde-9fb7449a5c7c}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bb9c0431-10c0-4152-bcf2-e34201658e76}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_productname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="za_productname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4ae0bfea-bbc7-408c-8bf4-d28270c4b379}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cfcd171a-a980-40b7-b3e0-eb9f9d73af95}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_productcode" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="za_productcode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a98e6e6-3ff7-4fe2-a29a-a57f3209177d}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_category" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="za_category" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1af75adc-2cd4-452a-87a6-3f08ba1a174a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_price" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="za_price" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8536e4b8-a7c8-4585-a4ac-c273107741b2}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="za_description" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="za_description" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

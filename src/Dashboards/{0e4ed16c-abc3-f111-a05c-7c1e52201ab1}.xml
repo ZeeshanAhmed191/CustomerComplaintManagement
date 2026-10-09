@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Complaint Dashboard" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{0e4ed16c-abc3-f111-a05c-7c1e52201ab1}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{a4472556-7934-4742-a40b-2849e8c9b34e}">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="1111" id="{06352a39-2362-434a-95c0-f39911e3c18a}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{0b9a6049-16ac-4732-9e53-ab2ae8e1e735}" auto="false">
+                          <labels>
+                            <label description="Complaints" languagecode="1033" />
+                          </labels>
+                          <control id="Componentd19cf04" uniqueid="{2e851cad-caa5-2776-6ddc-631078326772}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>za_complaint</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{DB756BA4-CE9C-4398-8C0E-167AC4061D78}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{9B1A1FFC-AF52-48C3-8C0A-860937B79439}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{e1bae2f9-d7f7-4876-81e1-100583585bb1}" auto="false">
+                          <labels>
+                            <label description="Complaints" languagecode="1033" />
+                          </labels>
+                          <control id="Componentb078fd9" uniqueid="{8b5b5a5c-b532-ca97-60e9-d514544abbc8}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>za_complaint</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{DB756BA4-CE9C-4398-8C0E-167AC4061D78}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{207207CE-16F9-459A-B4B8-4EA473F92716}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell id="{14397e51-e312-22d3-3209-54d047a37e69}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell id="{067b1442-cc6c-babc-ca55-855893e58469}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{dd58ddca-401a-4941-a16f-ffa981a2b77c}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="IFRAME_Google" classid="{FD2A7985-3187-444e-908D-6624B21F69C0}">
+                            <parameters>
+                              <Url>https://google.com</Url>
+                              <PassParameters>false</PassParameters>
+                              <Security>true</Security>
+                              <Scrolling>auto</Scrolling>
+                              <Border>true</Border>
+                              <ShowOnMobileClient>false</ShowOnMobileClient>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{189661b5-90e1-04e4-e4ae-6e0210b4c555}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell id="{46cb1292-d5c7-bd5a-74ab-2253e05e5a95}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{3400a0d9-9384-9eeb-9a76-920d5b83cad6}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell id="{57e25ed9-9d2c-4eb4-ddd3-929c71b7d97d}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{d8e01c82-39aa-6600-4da1-dbdbab93d514}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell id="{56c0886a-274a-1aa1-4b95-183716b44c95}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{9d807488-655d-7dbe-2617-d8b28154a2d1}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell id="{c690641c-b331-49cb-b02d-700a495cd027}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{c91bc3c9-467a-53bb-2101-9c4b10735e38}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell id="{501cb451-8433-232b-e9b0-0b187e7ea4e6}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{16a09090-b004-264a-9bba-c879d3436d0a}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell id="{73c32727-37d8-5d97-5008-b3395e57e170}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{62ddd5ed-1e82-9b4e-8b02-bd2eece3e7ee}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell id="{c715e5e1-a872-15c4-9c9a-485dc3a2ce38}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{b0e18e00-3745-be30-4439-5c991c149214}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell id="{461790b0-c2d9-4eae-7b87-9aa22e67010e}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{3c363928-666a-306b-65a8-183ed974c635}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell id="{6e365127-958b-b007-a3d8-994a02ae021d}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{2d7b4953-c8c1-361b-927d-4286a443321b}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell id="{acb72b07-9a57-9272-e587-d8ac8cca4be5}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell id="{d4cee5cd-29a9-932c-aad8-80a3e079116c}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                        <cell id="{d95571a4-9070-29d5-a3ba-7941c067ee2c}" showlabel="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>
